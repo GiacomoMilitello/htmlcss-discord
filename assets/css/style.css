@@ -13,6 +13,7 @@ header{
     display: flex;
     flex-direction: column;
     gap: 20%;
+    padding-top: 10px;
 }
 nav{
     /* background-color: #223fbd; */
@@ -115,12 +116,12 @@ main{
 }
 .imgtext{
     background-color: white;
-    height: 300px;
+    height: 400px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    padding-inline: 15%;
+    /* padding-inline: 15%; */
 }
 div.grey.imgtext{
     flex-direction: row-reverse;
@@ -129,14 +130,36 @@ div.grey.imgtext{
     background-color: #e1dddd;
 }
 .imgtext figure{
-    background-color: #1e1d32;
-    height: 70%;
-    width: 50%;
+    /* background-color: #1e1d32; */
+    height: 80%;
+    width: 40%;
+    /* border: 1px solid black; */
+}
+#fig1{
+    background-image: url('..//img/item1.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#fig2{
+    background-image: url('..//img/item2.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#fig3{
+    background-image: url('..//img/item3.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .imgtext div{
-    background-color: #223fbd;
-    height: 70%;
-    width: 40%;
+    /* background-color: #223fbd; */
+    height: 80%;
+    width: 20%;
+}
+main .imgtext h2{
+    margin-bottom: 15%;
 }
 #mainend{
     height: 600px;
