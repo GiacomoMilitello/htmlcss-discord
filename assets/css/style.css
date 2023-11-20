@@ -99,6 +99,8 @@ header nav ul li{
 }
 #under1 a{
     color: black;
+    padding-inline: 15px;
+    padding-block: 5px;
 }
 #under2{
     /* width: 40%; */
@@ -168,13 +170,25 @@ main .imgtext h2{
     justify-content: space-evenly;
     padding-inline: 15%;
 }
+#mainend div h2,
+#mainend div p{
+    text-align: center;
+}
+#mainend div h2{
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
 #mainend > div{
     height: 20%;
-    background-color: #223fbd;
+    /* background-color: #223fbd; */
 }
 #mainend figure{
-    height: 40%;
-    background-color: #1e1d32;
+    height: 80%;
+    /* background-color: #1e1d32; */
+    background-image: url(../img/item4-big.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 #mainend > div:last-child{
     display: flex;
@@ -184,14 +198,22 @@ main .imgtext h2{
     align-items: center;
 }
 #textb{
-    background-color: white;
-    height: 20%;
+    /* background-color: white; */
+    text-align: center;
+    height: 25%;
     width: 70%;
+    background-image: url('../img/stars.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 #mainendbutton{
     background-color: #5776eb;
     height: 20%;
     width: 30%;
+    padding-inline: 15px;
+    padding-block: 5px;
+    color: white;
 }
 footer{
     flex-wrap: wrap;
